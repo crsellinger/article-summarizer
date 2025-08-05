@@ -23,3 +23,25 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 11) Number of sentences printed: 1 pt
 * (Question 12) Thoughtful answer based on reported polarity scores: 1 pt
 * (Question 13) Thoughtful answer based on summaries: 1 pt
+
+## Installation
+
+Run the following one by one:
+
+**Create virtual environment**
+```shell
+py -m venv .venv
+```
+**Activate virtual environment**
+```shell
+./.venv/Scripts/Activate
+```
+**Install Dependencies**
+```shell
+py -m pip install --upgrade pip setuptools wheel
+py -m pip install -r requirements.txt
+```
+**Install English Module for Spacy**
+```shell
+python -m spacy download en_core_web_sm
+```
